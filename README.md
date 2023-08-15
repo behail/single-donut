@@ -1,8 +1,10 @@
 # React Donut Single Slice
 
-It is a simple react single splice donut package.
-This is a simpple react single lice donut package.
-<img width="60" alt="donut" src="https://github.com/behail/single-donut/assets/60188158/84f5e70e-9384-419b-ae47-c8f67aa191a0">
+This is a straightforward React package for creating single slice donuts. It's user-friendly and can be easily incorporated into any React project that utilizes TypeScript.
+
+## Image
+
+<img width="120" alt="donut" src="https://github.com/behail/single-donut/assets/60188158/84f5e70e-9384-419b-ae47-c8f67aa191a0">
 
 ## Installation
 

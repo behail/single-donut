@@ -1,6 +1,6 @@
 {
   "name": "single-donut",
-  "version": "1.0.9",
+  "version": "1.0.14",
   "description": "react donut",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
