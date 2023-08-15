@@ -1,17 +1,18 @@
 # React Donut Single Slice
 
-This is a simpple react single lice donut package.
+It is a simple react single splice donut package.
 
 ## Installation
 
 Using npm:
 
-### `npm install react-donut-single-slice`
+### `npm i single-donut`
 
 ## Configure
 
 ###
 
+```JavaScript
 configure = {
 svg: {
 width: string,
@@ -33,37 +34,38 @@ textAnchor: string,
 percentagevalue: number,
 
 };
+```
 
 ## Usage
 
-````JavaScript
+```JavaScript
 
 import ReactDOM from "react-dom/client";
 
 import App from "./App";
-import { ReactDonut } from "react-donut-single-slice";
+import { ReactDonut } from "single-donut";
 
 function App() {
-const configure = {
-svg: {
-width: "80",
-height: "80",
-},
-circle: {
-cx: "50",
-cy: "25",
-radius: 20,
-fill: "transparent",
-strokeColor1: "#aab3b2",
-strokeColor2: "#34ebe5",
-strokeWidth: "6",
-},
-text: {
-fill: "gray",
-textAnchor: "middle",
-},
-percentagevalue: 60,
-};
+ const configure = {
+    svg: {
+      width: "80",
+      height: "80",
+    },
+    circle: {
+      cx: "50",
+      cy: "25",
+      radius: 20,
+      fill: "transparent",
+      strokeColor1: "#aab3b2",
+      strokeColor2: "#34ebe5",
+      strokeWidth: "6",
+    },
+    text: {
+      fill: "gray",
+      textAnchor: "middle",
+    },
+    percentagevalue: 60,
+  };
 return (
 
 <div>
@@ -75,5 +77,5 @@ return (
 const root = ReactDOM.createRoot(
 document.getElementById("root") as HTMLElement
 );
-root.render(<App />);```
-````
+root.render(<App />);
+```

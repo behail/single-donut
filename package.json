@@ -1,6 +1,6 @@
 {
   "name": "single-donut",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "description": "react donut",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/behail/single-donut"
+    "url": "git+https://github.com/behail/single-donut.git"
   },
   "peerDependencies": {
     "react": ">=16"

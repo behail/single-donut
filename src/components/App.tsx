@@ -1,5 +1,4 @@
 import React from 'react'
-import './ReactDonut.css'
 import { ChartConfiguration } from './main'
 
 const ReactDonut: React.FC<{ configure: ChartConfiguration }> = (props) => {
@@ -34,6 +33,7 @@ const ReactDonut: React.FC<{ configure: ChartConfiguration }> = (props) => {
         y={props.configure.circle.cy}
         textAnchor={props.configure.text.textAnchor}
         alignmentBaseline='middle'
+        style={{ fontSize: '12px', fontWeight: '600' }}
       >
         {props.configure.percentagevalue} %
       </text>
